@@ -111,7 +111,7 @@ st.subheader('금일 뉴스 별 전일 대비 종가 등락 예측 결과')
 st.markdown("#### <span style = 'color:red'> 금일 뉴스 31건 중,</span>", unsafe_allow_html=True)
 
 # 등락 결과 데이터 추출
-df = pd.read_excel('C:/Users/pemo/Downloads/최종/df3.xlsx')
+df = pd.read_excel('df.xlsx')
 df_und = df[['text', 'predicted_label']]
 up_df = df_und[df_und['predicted_label'] == 1].reset_index(drop=True)
 down_df = df_und[df_und['predicted_label'] == 0].reset_index(drop=True)
@@ -119,8 +119,8 @@ down_df = df_und[df_und['predicted_label'] == 0].reset_index(drop=True)
 
 # 화살표와 건수 및 퍼센트 
 empty1, up1, up2, empty, down1, down2, empty = st.columns((0.2, 0.09, 0.13, 0.25, 0.09, 0.07, 0.2))
-up1.image('C:/Users/pemo/Downloads/최종/up.png', width=130)
-down1.image('C:/Users/pemo/Downloads/최종/down.png', width=130)
+up1.image('up.png', width=130)
+down1.image('down.png', width=130)
 
 up2.title('30건')
 down2.title('1건')
@@ -151,9 +151,9 @@ nega_df = df_sent[df_sent['sentiment'] == '부정'].reset_index(drop=True)
 
 # 화살표와 건수 
 empty1, posi1, posi2, empty, neut1, neut2, empty, nega1, nega2, empty = st.columns((0.2, 0.18, 0.13, 0.35, 0.18, 0.13, 0.4, 0.18, 0.13, 0.2))
-posi1.image('C:/Users/pemo/Downloads/최종/posi.png', width=130)
-neut1.image('C:/Users/pemo/Downloads/최종/neut.png', width=130)
-nega1.image('C:/Users/pemo/Downloads/최종/nega.png', width=130)
+posi1.image('posi.png', width=130)
+neut1.image('neut.png', width=130)
+nega1.image('nega.png', width=130)
 
 posi2.title('23건')
 neut2.title('7건')
