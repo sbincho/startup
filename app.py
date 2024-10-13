@@ -93,18 +93,6 @@ def plot_candlestick(data, ticker_name):
 
 st.set_page_config("주식 뉴비(Newbie)를 위한 딥러닝 기반 투자결정 지원 프로그램", "🌱", layout="wide")
 
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: #0e1117; /* 원하는 배경색으로 변경 */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-
 t1, empty, t2 = st.columns((0.07, 0.05, 1))
 t1.image('seed.png', width=140)
 t2.title("주식 뉴비(Newbie)를 위한 딥러닝 기반 투자결정 지원 프로그램")
