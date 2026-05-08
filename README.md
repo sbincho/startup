@@ -1,3 +1,19 @@
+<div align="center">
+
+# FaceGuard
+
+### Explainable Deep Learning System for Deepfake Detection
+
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.6+-ee4c2c.svg)](https://pytorch.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B.svg)](https://streamlit.io/)
+
+딥페이크 이미지와 영상을 탐지하고, **왜 그렇게 판단했는지 시각적으로 설명하는 XAI 기반 탐지 시스템**입니다.
+
+> 단순 분류 모델이 아니라, **일반화 성능 개선 + 설명 가능성 + 실제 사용 가능한 웹 인터페이스**까지 연결한 프로젝트입니다.
+
+</div>
+
 ## 한눈에 보기
 - 무엇을 만들었나 : 뉴스 제목을 기반으로 주가 등락을 예측하는 모델과  Streamlit 기반 웹 서비스 화면
 - 핵심 성과 : 
