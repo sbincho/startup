@@ -1,7 +1,6 @@
 <div align="center">
 
-## 뉴스 제목 데이터 텍스트마이닝 기반 
-# 주식 뉴비(Newbie)를 위한 투자결정 지원 서비스
+# 생성 AI 기반 야구 채팅 메시지 순화 솔루션
 
 [![Python](https://img.shields.io/badge/Python-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c.svg)](https://pytorch.org/)
@@ -10,9 +9,9 @@
 </div>
 
 ## 한눈에 보기
-- 무엇을 만들었나 : 뉴스 제목을 기반으로 주가 등락을 예측하는 모델과  Streamlit 기반 웹 서비스 화면
+- 무엇을 만들었나 : 
 - 핵심 성과 : 
-- 내 역할 : UiPath를 활용한 뉴스 데이터 크롤링, 기술 플로우 작성, 딥러닝 모델 선정 및 성능 개선, 웹 서비스 화면 구현
+- 내 역할 : KcBert 기반 채팅 데이터 유해 유형 분류 모델 개발, FastAPI 기반 서비스 웹 화면, WebSocket 기반 채팅 기능 구현
 
 
 ## 프로젝트 개요
