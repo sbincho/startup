@@ -1,6 +1,7 @@
 <div align="center">
 
-# 뉴스 제목 데이터 텍스트마이닝 기반 주식 뉴비(Newbie)를 위한 투자결정 지원 서비스
+## 뉴스 제목 데이터 텍스트마이닝 기반 
+# 주식 뉴비(Newbie)를 위한 투자결정 지원 서비스
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.6+-ee4c2c.svg)](https://pytorch.org/)
